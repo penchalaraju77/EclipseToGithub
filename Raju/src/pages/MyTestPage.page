@@ -1,0 +1,3 @@
+<apex:page Controller="MyTestClass" action="{!save}">
+
+</apex:page>
