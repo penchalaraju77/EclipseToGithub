@@ -1,0 +1,6 @@
+<apex:page Controller="DiveGoogle" Action="{!save1}">
+ code:{!code}
+ 
+ <br/>
+ body:{!body}
+</apex:page>
