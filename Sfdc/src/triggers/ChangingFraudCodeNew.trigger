@@ -4,7 +4,7 @@ trigger ChangingFraudCodeNew on Clarity_Response_New__c (before insert, before u
     {
         if(c.CF_Fraud_Description__c!=null )
         {
-                      
+              system.debug('**artTest2***');            
             if(c.CF_Fraud_Description__c.contains('|'))
             
                c.CF_Fraud_Description__c=c.CF_Fraud_Description__c.replace('|','\n');
